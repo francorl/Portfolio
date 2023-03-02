@@ -1,13 +1,4 @@
-/**
-* Template Name: Personal - v2.4.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Consolas", sans-serif;
   background-color: #040404;
@@ -19,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-   /*background-image: url('http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-44.gif');*/
+   background-image: url('https://cutewallpaper.org/28/dark-souls-wallpaper-pixel-art/holy-mother-of-god-this-pixel-art-is-amazing-rdarksouls.gif');
    background-color: #040404;
     background-size: cover;
   left: 0;
@@ -89,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #00e1ff;
-  border-bottom: 2px solid #ffffff;
+  
   padding-bottom: 6px;
 
 }
@@ -365,7 +356,8 @@ section .container {
   display: flex;
   justify-content: center;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
+  
   padding: 5;
   padding-top: 5%;
   line-height: 1px;
@@ -472,10 +464,9 @@ section .container {
   display: flex;
   justify-content: center;
   align-items: center;
- 
   padding-top: 3%;
   padding-bottom: 5%;
-  gap: 4ch;
+ 
 
   
 }
@@ -487,7 +478,7 @@ section .container {
   background: none;
 }
 
-.skills .progress .skill {
+.skills  .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -495,26 +486,23 @@ section .container {
   font-weight: 600;
   font-family: "Consolas", sans-serif;
   color: #fff;
+
 }
 
-.skills .progress .skill .val {
+.skills  .skill .val {
   float: right;
   font-family: "Consolas", sans-serif;
 }
 
-.skills .progress-bar-wrap {
-  background: rgba(255, 255, 255, 0.15);
-}
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #ffffff;
-}
 
-.skills :hover {
+
+
+.skill .val .img-lang:hover{
+
+  scale: 1.5;
  
+
 }
 
 /*--------------------------------------------------------------
@@ -1249,18 +1237,47 @@ section .container {
 }
 
 
-
-.img-lang {
-
-
-border-radius: 5%;
-
-}
-
 .textitems {
   color: #00e1ff;
 }
 
 .img-fluid {
   border-radius: 5%;
+}
+
+
+
+
+/* typed effect */
+
+
+.typedcontainer p {
+  font-size: 2rem;
+ 
+  
+  
+  overflow: hidden;
+}
+
+.typedcontainer p span.typed-text {
+  font-weight: normal;
+  color: #00e1ff;
+}
+.typedcontainer p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+.typedcontainer p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
