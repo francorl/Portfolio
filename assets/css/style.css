@@ -397,6 +397,12 @@ section .container {
   font-size: 26px;
   color: #ffffff;
 }
+.about-me .content p {
+  
+  font-size: 17px;
+  color: #ffffff;
+}
+
 
 .about-me .content ul {
   list-style: none;
@@ -415,6 +421,7 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+  font-size: 17px;
 
 }
 .about-me.container{
@@ -466,6 +473,11 @@ section .container {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+
+
+
+
+
 .skills-content{
   display: flex;
   justify-content: center;
@@ -1334,11 +1346,60 @@ section .container {
 .cv{
   display: flex;
   justify-content: center;
-  background-color: #0000009a;
-  padding-top: 30%;
-  text-align: end;
+
+  text-align: center;
+  font-size: 25px;
+  margin: 100px 0 20px 0;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-family: "Consolas", sans-serif;
   
 }
+
+
+button {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: "Consolas", sans-serif;
+  
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+button:focus,
+button:hover {
+  color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+
 
 
 .textitems {
