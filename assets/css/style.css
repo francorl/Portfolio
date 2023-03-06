@@ -515,6 +515,10 @@ section .container {
 }
 
 
+
+
+
+
 .img-lang{
   margin-left: 8px;
  
@@ -1411,8 +1415,7 @@ button:after {
 }
 
 .img-gallery{
-  width: 350px;
-  height: 200px;
+  max-width: 100%;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -1420,19 +1423,23 @@ button:after {
   background-size: cover;
   background-position: center;
   border-radius: 1%;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+
 }
 
 
-.img-gallery:active{
- 
-  transform:scale(3);
-}
+
 
 
 /*
 .img-gallery:hover {
   -webkit-transform:scale(5);
   transform:scale(5);
+
+
+
+  box-sizing: border-box;
 }
 */
 
@@ -1469,3 +1476,6 @@ button:after {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
+
+
