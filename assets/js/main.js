@@ -66,9 +66,42 @@
       setTimeout(function() {
         $("section").removeClass('section-show');
         $(initial_nav).addClass('section-show');
+        
       }, 350);
     }
   }
+
+
+//Chambers Section
+
+$("#chamb").on("click", function(){
+
+    setTimeout(function() {
+      $("section").removeClass('section-show');
+      $('#chambers').addClass("section-show"); 
+        $('#chambers').siblings().removeClass("section-show");
+      
+    }, 250);
+ });
+ 
+ 
+//Mjolnir Section
+
+ $("#mjol").on("click", function(){
+
+
+  setTimeout(function() {
+    $("section").removeClass('section-show');
+    $('#mjolnir').addClass("section-show"); 
+      $('#mjolnir').siblings().removeClass("section-show");
+      
+    
+  }, 250);
+ 
+ });
+ 
+
+ 
 
   // Mobile Navigation
   if ($('.nav-menu').length) {
@@ -169,6 +202,7 @@
 
 
 
+
 //typed effect
 
 const typedTextSpan = document.querySelector(".typed-text");
@@ -212,15 +246,6 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
-
-
-
-
-
-
-
-
-
 
 
 
