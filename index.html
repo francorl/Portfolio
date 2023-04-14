@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Franco Orlando | Portfolio</title>
+<title>Franco Orlando | Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -16,64 +14,56 @@
   <link href="assets/img/favicon2.jpg" rel="icon">
 
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
 
 
 
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script></script>
-
 
 </head>
 
 <body>
 
-
-<div class="body-bg">
-
-
-
-
-
   
-  <header id="header" class="header-tops">
+  <header id="header">
     <div class="container">
 
       <h1><a href="index.html">Franco Orlando</a></h1>
- 
-      <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-    
-     <h2> 
-      <div class="typedcontainer">
-      <p> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-    
-    </div>
-  </h2>
-      <nav class="nav-menu d-none d-lg-block">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <!--<h2>I'm a passionate <span>graphic designer</span> from New York</h2> -->
+
+      <nav id="navbar" class="navbar">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Projects</a></li>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About Me</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Projects</a></li>
          
+        
         </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-     
+
       <div class="social-links">
+       
+         
+        <a href="https://github.com/francorl" class="github" target="_blank"><i class="bi bi-github"></i></a>
         
-        <a href="https://github.com/francorl" class="github" target="_blank"><i class="icofont-github"></i></a>
-        
-        <a href="https://www.linkedin.com/in/franco-orlando-0b1b09133/" class="linkedin" target="_blank"><i class="icofont-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/franco-orlando-0b1b09133/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+
       </div>
 
     </div>
@@ -119,10 +109,10 @@
             </div>
           </div>
           <p>
-            Software and Game developer with a proactive personality, motivational, self-taught and creative, graduated from Instituto Superior Nº 4021 ICOP.
+            <span class="e1">Software and Game developer</span> with a proactive personality, motivational, self-taught and creative, graduated from Instituto Superior Nº 4021 ICOP.
           </p>
           <p>
-            My portfolio showcases my skills in designing, developing, and delivering software and games across a range of platforms.
+            My portfolio showcases my skills in <span class="des">designing</span> , <span class="developing">developing</span> and <span class="delivering">delivering</span> software and games across a range of platforms.
           </p>
 
 
@@ -172,6 +162,7 @@
   </section>
 
 
+  
   <section id="resume" class="resume">
     <div class="container">
 
@@ -235,9 +226,8 @@
 </div>
     </div>
   </section>
-
   
-<section id="services" class="services">
+  <section id="services" class="services">
     <div class="container">
 
       <div class="section-title">
@@ -250,19 +240,28 @@
 
  
         <div class="col-lg-4 col-md-6 ">
-
-          
-           <a href="#chambers" id="chamb">
+          <a href="chambersdetail.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">
               
             <div class="icon-box">
-              <img src="./assets/img/chambers.jpg" class="img-proyect">
-              <h4>Chambers of Madness</h4>
-              <span class="textitems"> UNREAL ENGINE C++ </SPAN>
+                <img src="./assets/img/chambers.jpg" class="img-proyect">
+              <div class="portfolio-wrap">
+                <div class="portfolio-info">
+                  <h4>Chambers of Madness</h4>
+                  <span class="textitems"> UNREAL ENGINE C++ </SPAN>
+                </div>
               </div>
             </a>
 
-             
+            </div>
+         
         </div>
+
+
+
+
+
+
+
 
         <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0">
           
@@ -271,12 +270,12 @@
             <img src="./assets/img/Calcapp.jpg" class="img-proyect">
             <h4>Type Calc</h4>
            
-            <p>An react calculator using Typescript</p>
+   
             
             <span class="textitems"> TYPESCRIPT HTML CSS </SPAN>
-
+            </a>
           </div>
-        </a>
+        
      
         </div>
 
@@ -286,10 +285,11 @@
           <div class="icon-box">
             <img src="./assets/img/WeatherApp.jpg" class="img-proyect">
             <h4>WeatherApp</h4>
-            <p>An react weather system</p>
+       
             <span class="textitems"> REACT REDUX CSS </SPAN>
+            </a>
           </div>
-        </a>
+        
      
         </div>
 
@@ -302,14 +302,14 @@
            
           <h4>Posada Donato Admin</h4>
          
-             <p>An admin panel/dashboard</p>
+          
   
              <span class="textitems"> PHP MYSQL JAVASCRIPT</SPAN>
              
-  
+             </a>
             </div>
   
-          </a>
+       
        
             </div>
 
@@ -324,9 +324,9 @@
                 <img src="assets/img/mjolnir/puzzlegame.jpg" class="img-proyect">
                 <h4>Mjölnir</h4>
                 <span class="textitems"> UNREAL ENGINE C++</SPAN>
-                
+                </a>
               </div>
-            </a>
+           
       
             </div>
 
@@ -334,15 +334,25 @@
             
             <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-4">
               
-              <a href="">
+             
               <div class="icon-box">
-                <img src=" " class="img-proyect">
-                <h4></h4>
-                <p></p>
-                <p></p>
+               <!-- <a href="" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details">-->
+                <img src="" class="img-proyect">
+                <div class="portfolio-wrap">
+            
+                  <div class="portfolio-info">
+                    <h4>TEST APP</h4>
+                     <span class="textitems"> UNREAL ENGINE C++</SPAN>
+                    <div class="portfolio-links">
+                  
+                      <!--<a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                    </div>
+                  </div>
+                </div>
                 
+              </a>
               </div>
-            </a>
+          
         
             </div>
     
@@ -371,358 +381,178 @@
     </div>
   </section>
 
-<!--PORTFOLIO PREVIEW-->
+  <!--
+  <section id="portfolio" class="portfolio">
+    <div class="container">
 
- 
-<section id="chambers" class="chambers" >
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
 
   
-  <div class="skills container">
 
-    <div class="section-title">
-      <h2>Project</h2>
-      
-    </div>
-
-    <div class="row">
-
-
-
-      <div class="col-mg-6" >
-        <img src="assets/img/chambers.jpg" class="img-gallery">
-      </div>
-      <div class="col-mg-6">
-        <h3> Chambers of Madness</h3>
+  <div class="credits">
     
-        <div class="row">
-          <div class="col-lg-10">
-            <ul>
-
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Game Engine:</strong> UNREAL ENGINE 5</li>
-              
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Genre:</strong> Platform </li>
-             
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems"> Language:</strong> C++</li>
-
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Version:</strong> Prototype </li>
-
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul>
-             
-              
-              
-              
-            </ul>
-          </div>
-        </div>
-        <p>
-          This is a Prototype of Chambers of Madness made in Workshop of Universidad Nacional de Rosario in Santa fe - Argentina
-
-
-
-
-
-
-        </p>
-
-        
-      </div>
-    </div>
   
-
   </div>
+-->
 
- 
- 
-  <div class="skills container">
-
-    <div class="section-title2">
-      <h3>Gallery</h3>
-    </div>
-
-
-  
-
-
-    <div class="row">
-
-
-      <div class="col-lg-4 col-md-6">
-        <div class="icon-box">
-          <a href="assets/img/chambers.jpg" data-toggle="lightbox">
-            <img src="assets/img/chambers.jpg" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-
-
-      <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-4">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-
-</div>
-
-  </div>
-
-
-
-</section>
-
-
-
-<!--MJOLNIR PROYECT------------------------------------------------------------------------------------------------------------------------------------------------------>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="mjolnir" class="mjolnir">
-
-  
-  <div class="mjolnir container">
-
-    <div class="section-title">
-      <h2>Project</h2>
-      
-    </div>
-
-    <div class="row">
-
-
-    
-      <div class="col-mg-6" data-aos="fade-right">
-        <img src="assets/img/mjolnir/puzzlegame.jpg" class="img-gallery" alt="">
-      </div>
-      <div class="col-mg-6">
-        <h3> Mjölnir</h3>
-    
-        <div class="row">
-          <div class="col-lg-10">
-            <ul>
-
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Game Engine: </strong>UNREAL ENGINE</li>
-              
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Genre:</strong> Platform </li>
-             
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems"> Language:</strong> C++</li>
-
-              <li><i class="icofont-rounded-right"></i> <strong class="textitems">Version:</strong> Prototype </li>
-
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul>
-             
-              
-              
-              
-            </ul>
-          </div>
-        </div>
-        <p>
-
-
-
-        </p>
-
-        
-      </div>
-    </div>
-  
-
-  </div>
-
- 
-  <div class="skills container">
-
-    <div class="section-title2">
-      <h3>Gallery</h3>
-    </div>
-
-
-  
-
-
-    <div class="row">
-
-
-      <div class="col-lg-4 col-md-6">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-
-
-      <div class="col-lg-4 col-md-6  align-items-stretch mt-4 mt-md-0">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-4">
-        <div class="icon-box">
-          <a href="" data-toggle="lightbox">
-            <img src="" class="img-proyect">
-          </a>
-        </div>
-      </div>
-
-
-</div>
-
-  </div>
-</section>
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  
-  <script src="node_modules\bs5-lightbox\dist\index.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-
-<script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox({alwaysShowClose: true});
-});</script>
-
-
+ 
   <script src="assets/js/main.js"></script>
 
-
-</div>
-
 </body>
-
 
 </html>
